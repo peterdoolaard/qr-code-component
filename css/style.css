@@ -19,6 +19,7 @@ body {
 .qr-container {
   background: hsl(0, 0%, 100%);
   border-radius: 1rem;
+  box-shadow: 0 1px 8px 4px hsl(0 0% 0% / 0.1);
   max-inline-size: 315px;
   padding: 1rem;
 }
@@ -29,7 +30,6 @@ body {
   display: inline-block;
   inline-size: 100%;
 }
-
 
 .qr-text {
   text-align: center;
