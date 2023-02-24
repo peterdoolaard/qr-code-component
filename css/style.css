@@ -1,0 +1,48 @@
+html {
+  font-size: 15px;
+}
+
+body {
+  background: hsl(212, 45%, 89%);
+  font-family: Outfit, sans-serif;
+  margin: 0;
+}
+
+.page {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-block-size: 100vh;
+  padding-inline: 2rem;
+}
+
+.qr-container {
+  background: hsl(0, 0%, 100%);
+  border-radius: 1rem;
+  max-inline-size: 315px;
+  padding: 1rem;
+}
+
+.qr-code img {
+  block-size: auto;
+  border-radius: 1rem;
+  display: inline-block;
+  inline-size: 100%;
+}
+
+
+.qr-text {
+  text-align: center;
+}
+
+.qr-text h1 {
+  color: hsl(218, 44%, 22%);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.qr-text {
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+  padding-inline: 1rem;
+}
