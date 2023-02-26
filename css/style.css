@@ -2,6 +2,10 @@ html {
   font-size: 15px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: hsl(212, 45%, 89%);
   font-family: Outfit, sans-serif;
